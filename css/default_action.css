@@ -1,0 +1,38 @@
+.ui-widget-content{
+	max-height: 200px;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+.bg_img .get_ready::after {
+    position: absolute;
+    content: "";
+    background-image: url(../images/get-ready-women.png);
+    width: 30%;
+    height: 620px;
+    background-repeat: no-repeat;
+    right: 0;
+    bottom: -80px;
+}
+.bg_img .get_ready::before {
+    position: absolute;
+    content: "";
+    background-image: url(../images/get-ready-man.png);
+    width: 30%;
+    height: 620px;
+    background-repeat: no-repeat;
+    left: 0;
+    bottom: -80px;
+}
+
+.ui-menu .ui-menu-item-wrapper {
+	max-width: 550px;
+}
+.featured_pro_img {
+    width: 90px;
+    height: 90px;
+    border: 0.5px solid #e4e4e4;
+    display: inline-block;
+    border-radius: 50%;
+    overflow: hidden;
+}
